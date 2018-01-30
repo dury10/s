@@ -3,8 +3,8 @@
 
 #apt-get update -y -qq
 #apt-get upgrade -y -qq
-apt install -y -qq git gcc g++ autogen
-apt-get install -y -qq automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev
+apt install -y -qq  gcc g++ autogen
+apt-get install -y -qq make automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev
 git clone https://github.com/fireworm71/veriumMiner
 cd veriumMiner
 ./autogen.sh
